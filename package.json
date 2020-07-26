@@ -1,5 +1,6 @@
 {
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-transform-modules-commonjs": "^7.9.6",
@@ -49,5 +50,8 @@
         "always"
       ]
     }
+  },
+  "dependencies": {
+    "@jest/globals": "^26.1.0"
   }
 }
